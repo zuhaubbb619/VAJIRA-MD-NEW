@@ -4,7 +4,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 
-module.exports = {
+module.exports = {VAJIRA-MD=eclEWRZI#BA319a3D6Ci-_DKxknIIYlv-m-AA5vfjN1NulE7GCpE
 SESSION_ID: process.env.SESSION_ID === undefined ? '' : process.env.SESSION_ID,
 OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '' : process.env.OWNER_NUMBER,   
 ONLY_GROUP: process.env.ONLY_GROUP === undefined ? 'false' : process.env.ONLY_GROUP,
@@ -17,7 +17,7 @@ MAX_SIZE: 500,
 ALIVE:  process.env.ALIVE  || ''  ,    
 OWNER_REACT:  process.env.OWNER_REACT  || true  ,
 ADMIN_EVENT:  process.env.ADMIN_EVENT  || true  ,   
-AUTO_BLOCK:  process.env.AUTO_BLOCK  || false  ,        
+AUTO_BLOCK:  process.env.AUTO_BLOCK  || true  ,        
 AUTO_VOICE:  process.env.AUTO_VOICE  || false  ,
 AUTO_STICKER: process.env.AUTO_STICKER || false  ,    
 ANTI_BAD: process.env.ANTI_BAD || false  ,
@@ -32,10 +32,10 @@ WORK_TYPE: process.env.WORK_TYPE || 'private' ,
 ANTI_LINK: process.env.ANTI_LINK || false  ,
 ANTI_BOT: process.env.ANTI_BOT || false  ,
 ANTI_CALL: process.env.ANTI_CALL || false  ,
-AI_CHATBOT: process.env.AI_CHATBOT || false  ,
+AI_CHATBOT: process.env.AI_CHATBOT || true  ,
 AI_IMAGE: process.env.AI_IMAGE || false  ,
 MATHS_AI: process.env.MATHS_AI || false  ,    
-WELCOME: process.env.WELCOME || false  ,    
+WELCOME: process.env.WELCOME || true  ,    
 HEROKU_API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,    
 HEROKU_APP_NAME: process.env.HEROKU_APP_NAME === undefined ? '' : process.env.HEROKU_APP_NAME,         
 LOGO: process.env.LOGO || `https://telegra.ph/file/cce13b56a460afc9f4139.jpg` ,
